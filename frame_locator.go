@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/playwright-community/playwright-go/internal/multierror"
+	"github.com/johnpena/playwright-go/internal/multierror"
 )
 
 type frameLocatorImpl struct {

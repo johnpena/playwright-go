@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/h2non/filetype"
-	"github.com/playwright-community/playwright-go"
+	"github.com/johnpena/playwright-go"
 	"github.com/stretchr/testify/require"
 )
 

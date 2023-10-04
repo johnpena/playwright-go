@@ -18,7 +18,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/playwright-community/playwright-go"
+	"github.com/johnpena/playwright-go"
 )
 
 func assertErrorToNilf(message string, err error) {

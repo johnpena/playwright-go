@@ -2,16 +2,15 @@ package playwright_test
 
 import (
 	"bytes"
+	goContext "context"
 	"fmt"
 	"log"
 	"net"
 	"net/http"
 	"testing"
 
-	goContext "context"
-
 	"github.com/gorilla/websocket"
-	"github.com/playwright-community/playwright-go"
+	"github.com/johnpena/playwright-go"
 	"github.com/stretchr/testify/require"
 )
 

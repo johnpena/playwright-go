@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/playwright-community/playwright-go"
+	"github.com/johnpena/playwright-go"
 )
 
 type remoteServer struct {
