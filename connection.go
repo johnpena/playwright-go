@@ -242,7 +242,7 @@ type parsedStackTrace struct {
 }
 
 func serializeCallStack(isInternal bool) parsedStackTrace {
-	st := stack.Trace().TrimRuntime()
+	st := stack.Trace()
 
 	lastInternalIndex := 0
 	for i, s := range st {
